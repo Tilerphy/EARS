@@ -37,8 +37,7 @@ EARS has been developed and tested on a Raspberry Pi 3 Model B device. To recrea
 - Recreate SSH host keys:
 
 ```bash
-sudo rm /etc/ssh/ssh_host_*
-sudo dpkg-reconfigure openssh-server
+sudo apt-get install gcc
 ```
   
 ### Step 2 - install Python 3.6 using [Berry Conda](https://github.com/jjhelmus/berryconda)
