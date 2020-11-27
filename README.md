@@ -57,9 +57,17 @@ sudo ./Miniconda3-latest-Linux-armv7l.sh
 ```bash
 conda create -n ears python=3.6
 source activate ears
-conda install cython numpy pandas scikit-learn cffi h5py keras
-numpy 1.17
-keras 2.0.2
+conda install cython pandas
+keras==2.0.2
+scikit-learn==0.18.1
+cffi==1.10.0
+h5py==2.7.0
+numpy==1.12.0
+scipy==0.19.0
+tensorflow==0.12.1
+numba==0.30.0
+matplotlib==2.0.0
+tensorboard==1.0.0
 ```
 
 - Make sure PortAudio headers are available. If not, installing pyaudio will complain later on:
